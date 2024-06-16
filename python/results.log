@@ -1,0 +1,245 @@
+# vsim -do {; run -all; exit} -l s.log -sva -c -sv_seed random -novopt work.top 
+# //  Questa Sim
+# //  Version 10.0b linux May  5 2011
+# //
+# //  Copyright 1991-2011 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Refreshing /home/maven1/suraj_nitesh/UVM_LABS_10-sep_maven/Lab01/sim/work.top
+# Refreshing /home/maven1/suraj_nitesh/UVM_LABS_10-sep_maven/Lab01/sim/work.ram_pkg
+# Loading sv_std.std
+# Loading mtiUvm.uvm_pkg
+# Loading work.ram_pkg
+# Loading work.top
+# Loading /home/cad/eda/questa10b/questa_sim/uvm-1.0p1/linux/uvm_dpi.so
+# Sv_Seed = 1348771784
+#  
+#  run -all 
+# ----------------------------------------------------------------
+# UVM-1.0p1 
+# (C) 2007-2011 Mentor Graphics Corporation
+# (C) 2007-2011 Cadence Design Systems, Inc.
+# (C) 2006-2011 Synopsys, Inc.
+# ----------------------------------------------------------------
+# ---------------------------------------------------
+# Name                  Type       Size  Value       
+# ---------------------------------------------------
+# wr_xtnh[          0]  write_xtn  -     @455        
+#   data                integral   64    'd81        
+#   address             integral   12    'd98        
+#   write               integral   -1    'd1         
+#   xtn_delay           integral   65    'd1340173988
+#   xtn_type            addr_t     1     GOOD_XTN    
+# ---------------------------------------------------
+# ---------------------------------------------------
+# Name                  Type       Size  Value       
+# ---------------------------------------------------
+# wr_xtnh[          1]  write_xtn  -     @459        
+#   data                integral   64    'd57        
+#   address             integral   12    'd135       
+#   write               integral   -1    'd1         
+#   xtn_delay           integral   65    'd927660616 
+#   xtn_type            addr_t     1     BAD_XTN     
+# ---------------------------------------------------
+# ---------------------------------------------------
+# Name                  Type       Size  Value       
+# ---------------------------------------------------
+# wr_xtnh[          2]  write_xtn  -     @463        
+#   data                integral   64    'd61        
+#   address             integral   12    'd23        
+#   write               integral   -1    'd0         
+#   xtn_delay           integral   65    -918135395  
+#   xtn_type            addr_t     1     GOOD_XTN    
+# ---------------------------------------------------
+# ---------------------------------------------------
+# Name                  Type       Size  Value       
+# ---------------------------------------------------
+# wr_xtnh[          3]  write_xtn  -     @467        
+#   data                integral   64    'd56        
+#   address             integral   12    'd55        
+#   write               integral   -1    'd1         
+#   xtn_delay           integral   65    'd262513549 
+#   xtn_type            addr_t     1     GOOD_XTN    
+# ---------------------------------------------------
+# ---------------------------------------------------
+# Name                  Type       Size  Value       
+# ---------------------------------------------------
+# wr_xtnh[          4]  write_xtn  -     @471        
+#   data                integral   64    'd34        
+#   address             integral   12    'd136       
+#   write               integral   -1    'd1         
+#   xtn_delay           integral   65    'd1998563970
+#   xtn_type            addr_t     1     GOOD_XTN    
+# ---------------------------------------------------
+# ---------------------------------------------------
+# Name                  Type       Size  Value       
+# ---------------------------------------------------
+# wr_xtnh[          5]  write_xtn  -     @475        
+#   data                integral   64    'd22        
+#   address             integral   12    'd64        
+#   write               integral   -1    'd0         
+#   xtn_delay           integral   65    -895388712  
+#   xtn_type            addr_t     1     GOOD_XTN    
+# ---------------------------------------------------
+# ---------------------------------------------------
+# Name                  Type       Size  Value       
+# ---------------------------------------------------
+# wr_xtnh[          6]  write_xtn  -     @479        
+#   data                integral   64    'd62        
+#   address             integral   12    'd63        
+#   write               integral   -1    'd0         
+#   xtn_delay           integral   65    'd1724342107
+#   xtn_type            addr_t     1     GOOD_XTN    
+# ---------------------------------------------------
+# ---------------------------------------------------
+# Name                  Type       Size  Value       
+# ---------------------------------------------------
+# wr_xtnh[          7]  write_xtn  -     @483        
+#   data                integral   64    'd47        
+#   address             integral   12    'd117       
+#   write               integral   -1    'd1         
+#   xtn_delay           integral   65    -33530968   
+#   xtn_type            addr_t     1     GOOD_XTN    
+# ---------------------------------------------------
+# ---------------------------------------------------
+# Name                  Type       Size  Value       
+# ---------------------------------------------------
+# wr_xtnh[          8]  write_xtn  -     @487        
+#   data                integral   64    'd47        
+#   address             integral   12    'd34        
+#   write               integral   -1    'd1         
+#   xtn_delay           integral   65    'd44744719  
+#   xtn_type            addr_t     1     GOOD_XTN    
+# ---------------------------------------------------
+# ---------------------------------------------------
+# Name                  Type       Size  Value       
+# ---------------------------------------------------
+# wr_xtnh[          9]  write_xtn  -     @491        
+#   data                integral   64    'd89        
+#   address             integral   12    'd100       
+#   write               integral   -1    'd0         
+#   xtn_delay           integral   65    'd1872471722
+#   xtn_type            addr_t     1     GOOD_XTN    
+# ---------------------------------------------------
+# wr_xtnh[          0]: (write_xtn@455) {
+#   data: 'd81 
+#   address: 'd98 
+#   write: 'd1 
+#   xtn_delay: 'd1340173988 
+#   xtn_type: GOOD_XTN 
+# }
+# wr_xtnh[          1]: (write_xtn@459) {
+#   data: 'd57 
+#   address: 'd135 
+#   write: 'd1 
+#   xtn_delay: 'd927660616 
+#   xtn_type: BAD_XTN 
+# }
+# wr_xtnh[          2]: (write_xtn@463) {
+#   data: 'd61 
+#   address: 'd23 
+#   write: 'd0 
+#   xtn_delay: -918135395 
+#   xtn_type: GOOD_XTN 
+# }
+# wr_xtnh[          3]: (write_xtn@467) {
+#   data: 'd56 
+#   address: 'd55 
+#   write: 'd1 
+#   xtn_delay: 'd262513549 
+#   xtn_type: GOOD_XTN 
+# }
+# wr_xtnh[          4]: (write_xtn@471) {
+#   data: 'd34 
+#   address: 'd136 
+#   write: 'd1 
+#   xtn_delay: 'd1998563970 
+#   xtn_type: GOOD_XTN 
+# }
+# wr_xtnh[          5]: (write_xtn@475) {
+#   data: 'd22 
+#   address: 'd64 
+#   write: 'd0 
+#   xtn_delay: -895388712 
+#   xtn_type: GOOD_XTN 
+# }
+# wr_xtnh[          6]: (write_xtn@479) {
+#   data: 'd62 
+#   address: 'd63 
+#   write: 'd0 
+#   xtn_delay: 'd1724342107 
+#   xtn_type: GOOD_XTN 
+# }
+# wr_xtnh[          7]: (write_xtn@483) {
+#   data: 'd47 
+#   address: 'd117 
+#   write: 'd1 
+#   xtn_delay: -33530968 
+#   xtn_type: GOOD_XTN 
+# }
+# wr_xtnh[          8]: (write_xtn@487) {
+#   data: 'd47 
+#   address: 'd34 
+#   write: 'd1 
+#   xtn_delay: 'd44744719 
+#   xtn_type: GOOD_XTN 
+# }
+# wr_xtnh[          9]: (write_xtn@491) {
+#   data: 'd89 
+#   address: 'd100 
+#   write: 'd0 
+#   xtn_delay: 'd1872471722 
+#   xtn_type: GOOD_XTN 
+# }
+# wr_xtnh[          0]: (write_xtn@455) { data: 'd81  address: 'd98  write: 'd1  xtn_delay: 'd1340173988  xtn_type: GOOD_XTN  } 
+# wr_xtnh[          1]: (write_xtn@459) { data: 'd57  address: 'd135  write: 'd1  xtn_delay: 'd927660616  xtn_type: BAD_XTN  } 
+# wr_xtnh[          2]: (write_xtn@463) { data: 'd61  address: 'd23  write: 'd0  xtn_delay: -918135395  xtn_type: GOOD_XTN  } 
+# wr_xtnh[          3]: (write_xtn@467) { data: 'd56  address: 'd55  write: 'd1  xtn_delay: 'd262513549  xtn_type: GOOD_XTN  } 
+# wr_xtnh[          4]: (write_xtn@471) { data: 'd34  address: 'd136  write: 'd1  xtn_delay: 'd1998563970  xtn_type: GOOD_XTN  } 
+# wr_xtnh[          5]: (write_xtn@475) { data: 'd22  address: 'd64  write: 'd0  xtn_delay: -895388712  xtn_type: GOOD_XTN  } 
+# wr_xtnh[          6]: (write_xtn@479) { data: 'd62  address: 'd63  write: 'd0  xtn_delay: 'd1724342107  xtn_type: GOOD_XTN  } 
+# wr_xtnh[          7]: (write_xtn@483) { data: 'd47  address: 'd117  write: 'd1  xtn_delay: -33530968  xtn_type: GOOD_XTN  } 
+# wr_xtnh[          8]: (write_xtn@487) { data: 'd47  address: 'd34  write: 'd1  xtn_delay: 'd44744719  xtn_type: GOOD_XTN  } 
+# wr_xtnh[          9]: (write_xtn@491) { data: 'd89  address: 'd100  write: 'd0  xtn_delay: 'd1872471722  xtn_type: GOOD_XTN  } 
+# ---------------------------------------------------
+# Name                  Type       Size  Value       
+# ---------------------------------------------------
+# wr_copy_xtnh          write_xtn  -     @495        
+#   data                integral   64    'd22        
+#   address             integral   12    'd64        
+#   write               integral   -1    'd0         
+#   xtn_delay           integral   65    'dX         
+#   xtn_type            addr_t     1     BAD_XTN     
+# ---------------------------------------------------
+# wr_copy_xtnh: (write_xtn@495) {
+#   data: 'd22 
+#   address: 'd64 
+#   write: 'd0 
+#   xtn_delay: 'dX 
+#   xtn_type: BAD_XTN 
+# }
+# wr_copy_xtnh: (write_xtn@495) { data: 'd22  address: 'd64  write: 'd0  xtn_delay: 'dX  xtn_type: BAD_XTN  } 
+# Equal
+# ---------------------------------------------------
+# Name                  Type       Size  Value       
+# ---------------------------------------------------
+# wr_xtnh[          8]  write_xtn  -     @499        
+#   data                integral   64    'd47        
+#   address             integral   12    'd34        
+#   write               integral   -1    'd1         
+#   xtn_delay           integral   65    'dX         
+#   xtn_type            addr_t     1     BAD_XTN     
+# ---------------------------------------------------
+# wr_xtnh[          8]: (write_xtn@499) {
+#   data: 'd47 
+#   address: 'd34 
+#   write: 'd1 
+#   xtn_delay: 'dX 
+#   xtn_type: BAD_XTN 
+# }
+# wr_xtnh[          8]: (write_xtn@499) { data: 'd47  address: 'd34  write: 'd1  xtn_delay: 'dX  xtn_type: BAD_XTN  } 
+#  exit 
