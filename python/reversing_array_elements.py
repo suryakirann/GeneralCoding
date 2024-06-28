@@ -34,3 +34,10 @@ def getReversedArray_2(in_array):
 print(getReversedArray_2(arr))
 print(getReversedArray_2(arr2))
 
+array = [5, 2, 9, 1, 5, 6, 7, 3, 8, 0]
+# Reversing the array
+n = len(array)
+for i in range(n // 2):
+    array[i], array[n - i - 1] = array[n - i - 1], array[i]
+
+print("Reversed array:", array)
